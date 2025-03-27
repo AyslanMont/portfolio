@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.3em;
+}
+
+.navbar li {
+    margin: 5px 15px;
+}
+
+main {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    font-family: "Bad Script", cursive;
+    font-size: 3.5em;
+}
+
+main p {
+    font-family: "Winky Sans", sans-serif;
+    font-size: 1.5em;
+}
+
+main .nome {
+    background-color: rgb(96, 213, 96);
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+section.sobre-mim {
+    height: 100%;
+
+}
+
+.sobre-mim > article {
+    display: flex;
+    height: 100%;
+}
+
+.sobre-mim > article > .foto {
+    width: 40%;
+
+}
+
+.sobre-mim > article > .conteudo {
+    width: 60%;
+}
+
+.conteudo-layout {
+    padding: 0 200px 0 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo-layout > h2 {
+    font-size: 2em;
+    font-family: "Bad Script", cursive;
+    background-color: rgb(96, 213, 96);
+    align-self: flex-start;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+    
+}
+
+.conteudo-layout > p {
+    font-family: "Winky Sans", sans-serif;
+}
+.conteudo-layout > button {
+    font-family: "Winky Sans", sans-serif;
+    background-color: white;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    align-self: flex-start;
+
+}
+
+.foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.foto > img {
+    height: 60%;
+    padding: 20px;
+    border: 10px solid rgb(96, 213, 96);
+}
+
+
+.minhas-habilidades {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.minhas-habilidades > .titulo-minhas-habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.minhas-habilidades > .titulo-minhas-habilidades > h2{
+    font-family: "Bad Script", cursive;
+    background-color: rgb(96, 213, 96);
+    font-size: 2em;
+    border-radius: 10px;
+    padding: 5px 15px;
+      
+}
+
+.corpo-minhas-habilidades {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.habilidades > div {
+    width: 30%;
+    padding: 5px;
+    background-color: rgb(154, 255, 154);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Winky Sans", sans-serif;
+    margin: 5px;
+
+}
