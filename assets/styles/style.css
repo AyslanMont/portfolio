@@ -107,6 +107,11 @@ section.sobre-mim {
 
 }
 
+.conteudo-layout > button a {
+    text-decoration: none;
+    color: black;
+}
+
 .foto {
         display: flex;
         justify-content: center;
