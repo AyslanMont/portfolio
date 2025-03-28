@@ -159,6 +159,7 @@ section.sobre-mim {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 16px;
     
 }
 
@@ -170,7 +171,7 @@ section.sobre-mim {
     display: flex;
     justify-content: center;
     font-family: "Winky Sans", sans-serif;
-    margin: 5px;
+
 
 }
 
@@ -234,4 +235,13 @@ section.sobre-mim {
 .github-contato p {
     font-family: "Winky Sans", sans-serif;
     font-size: 1.2em;
+}
+
+.logos-contato {
+    display: flex;
+    gap: 20px;
+}
+
+.logos-contato img {
+    height: 48px;
 }
